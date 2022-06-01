@@ -1,0 +1,120 @@
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    color: #455A64;
+}
+
+h2 {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #455A64;
+}
+
+h3 {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #455A64;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #455A64;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    float: right;
+    position: absolute;
+    width: 686px;
+    height: 43px;
+    left: 698px;
+    top: 77px;
+
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgba(136, 136, 136, 0.6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+}
+  
+li a:hover:not(.active) {
+      color:rgba(217, 37, 28, 0.418);
+}
+
+li a.active {
+    color: rgba(217, 36, 28, 0.6);
+}
+
+/*.container {
+    position: relative;
+    width: 100%;
+}*/
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.container:hover .image {
+    opacity: 0;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 396px;
+    left: 0px;
+    top: 3259px;
+    background: #212324;
+}
+
+
+.dim:hover .image {
+  /*position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;*/
+  opacity: 0.7;
+}
